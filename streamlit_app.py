@@ -18,7 +18,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-DB_PATH = "inventory.db"
+DB_PATH = "nexus_inventory.db"  # separate file so it never clashes with an older inventory.db
 CUR = "₹"
 
 ACCENT, OK, WARN, BAD, MUTED = "#38bdf8", "#34d399", "#fbbf24", "#f87171", "#8fa3c0"
